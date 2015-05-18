@@ -1,3 +1,7 @@
+USE THEM AT YOUR OWN RISK!
+USE THEM AT YOUR OWN RISK!
+USE THEM AT YOUR OWN RISK!
+
 uart1_test [enable|disable]
 loopback_test [filename]
 
@@ -583,7 +587,7 @@ t ia2 -eis rsc_ctrl [en]: EIS RSC enable/disable
 	[save_flag]: 0:save now, 1:save later
 t ia2 -eis save_file [file]: Save gyro data
 	[file]: filename(include filepath) to store
-   ====================== DIS TEST FUNCTION ======================
+
 t ia2 -eis set_dis_hist_null: set dis histogram buffer address to NULL to halt DSP
 t ia2 -eis dis_print_hist [dir] [blk] [en] [bin]: print dis histogram index and values after sorting
 	[dir] = [0|1], 0:x dir, 1:y dir
@@ -664,7 +668,4 @@ t ia2 -rotate 2 [theta][dmy_range_left][dmy_range_right][dmy_range_top][dmy_rang
 	[dmy_range]: the space between dummy and act window
 
 
-
-
-
-
+There were some commands more but they were not complete, they had the typical "%s" written.
